@@ -1,5 +1,5 @@
 .container-hanalytics {
-  background-color: #e2e2e2;
+  /* background-color: #e2e2e2; */
   text-align: center;
   padding-bottom: 50px;
 }
@@ -26,3 +26,31 @@
   font-size: 18px;
   margin: 20px 0 20px 0;
 }
+
+.container-recap-hanalytics {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 50px;
+  text-align: left;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: solid, 1px, #d4d4d4;
+  border-radius: 3px;
+  box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.2);
+  height: auto;
+  background-color: #fff;
+}
+
+.container-recap-hanalytics:hover {
+  -webkit-transform: translateY(-5px);
+  transform: translateY(-5px);
+  -webkit-transition: 0.2s;
+  transition: 0.2s;  
+      box-shadow: 
+      0 3px 12px 0px
+rgba(0, 0, 0, 0.38);
+}
+
+
+.ul-hanalytics { font-size: 18px; }
