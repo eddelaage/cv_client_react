@@ -7,6 +7,7 @@ import Formation from './Formation'
 import Nav from './Nav'
 import Footer from './Footer'
 import EndFooter from './EndFooter'
+import Hanalytics from './Hanalytics'
 
 import './Cv.css'
 
@@ -17,6 +18,7 @@ const Cv = () => {
         <Nav />
         <HeaderCv />
       </div>
+      <Hanalytics />
       <WildCodeSchool />
       <HoLocation />
       <Kdovino />

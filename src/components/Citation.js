@@ -9,7 +9,7 @@ const Citation = () => {
           <h2 className="title-ce-site">Mon profil, vous intéresse ?</h2>
           <div>
           </div>
-          <p>Vous êtes en forte croissance et rechercher un développeur web junior, passionné et curieux...</p>
+          <p>Vous êtes en forte croissance et recherchez un développeur web junior, passionné et curieux...</p>
           <p className="contacter">N'hésitez pas à me contacter...</p>
         </div>
       </div>
