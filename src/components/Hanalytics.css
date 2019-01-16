@@ -1,28 +1,28 @@
 .container-hanalytics {
-    background-color: #e2e2e2;
-    text-align: center;
-    padding-bottom: 50px;
+  background-color: #e2e2e2;
+  text-align: center;
+  padding-bottom: 50px;
 }
 
 .container-title-hanalytics {
-    width: 80%;
-    margin: auto;
-    padding-top: 50px;
-    padding-bottom: 50px;
+  width: 80%;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
-.hanalytics-title{
-    color: #db5757;
-    margin: 0;
+.hanalytics-title {
+  color: #db5757;
+  margin: 0;
 }
 
-.link-hanalytics{
-    color: #db5757;
-    font-size: 1.3em;
+.link-hanalytics {
+  color: #db5757;
+  font-size: 1.3em;
 }
 
-.différenciateurs{
-    text-align: left;
-    font-size: 18px;
-    margin: 20px 0 20px 0;
+.différenciateurs {
+  text-align: left;
+  font-size: 18px;
+  margin: 20px 0 20px 0;
 }

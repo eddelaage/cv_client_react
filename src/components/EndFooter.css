@@ -42,3 +42,11 @@ a.fa.fa:hover {
   transition-duration: 0.2s;
 }
 
+.fa {
+  font-size: 36px;
+}
+
+.fa:hover {
+  font-size: 40px;
+}
+

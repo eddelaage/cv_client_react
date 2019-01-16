@@ -9,6 +9,14 @@
   box-shadow: 0 9px 15px rgba(30, 30, 30, 0.5);
 }
 
+.fa {
+  font-size: 36px;
+}
+
+.fa:hover {
+  font-size: 40px;
+}
+
 .container-aside h2 {
   margin-bottom: 0;
   margin-top: 0;
