@@ -46,11 +46,10 @@
   -webkit-transform: translateY(-5px);
   transform: translateY(-5px);
   -webkit-transition: 0.2s;
-  transition: 0.2s;  
-      box-shadow: 
+  transition: 0.2s;
+  box-shadow:
       0 3px 12px 0px
-rgba(0, 0, 0, 0.38);
+    rgba(0, 0, 0, 0.38);
 }
-
 
 .ul-hanalytics { font-size: 18px; }
