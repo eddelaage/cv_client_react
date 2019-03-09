@@ -16,7 +16,7 @@ const AsidePres = () => {
           <h1>Edouard de Laage</h1>
         </div>
         <div className="Spec">
-          <h2>Developpeur Web</h2>
+          <h2>Developpeur Web Frellance</h2>
           <p>Javascript / Node JS / React</p>
         </div>
         <div className="social-networks">
