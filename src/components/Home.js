@@ -6,6 +6,7 @@ import CitationPres from './CitationPres'
 import AboutMe from './AboutMe'
 import Citation from './Citation'
 import MySkills from './MySkills'
+import Portofolio from './Portofolio'
 import EndFooter from './EndFooter'
 import Nav from './Nav'
 
@@ -29,6 +30,7 @@ class Home extends Component {
         <CitationPres />
         <AboutMe />
         <MySkills />
+        <Portofolio />
         <Citation />
         <Footer />
         <EndFooter />

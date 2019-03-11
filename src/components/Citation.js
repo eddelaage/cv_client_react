@@ -3,8 +3,8 @@ import './Citation.css'
 
 const Citation = () => {
   return (
-    <div className="container-citation-bas">
-      <div className="layer">
+    <div className="container-fluid container-citation-bas">
+      <div className="row layer">
         <div className="container-para-ce-site">
           <h2 className="title-ce-site">Mon profil, vous intéresse ?</h2>
           <div>

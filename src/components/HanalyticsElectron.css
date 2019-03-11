@@ -1,0 +1,23 @@
+.hanalytics-electron-title {
+  text-align: center;
+  color: #db5757;
+  margin: 20px 0 20px 0;
+}
+
+.images {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-imgaeGallery {
+  margin: auto;
+  width: 30%;
+}
+
+button {
+  box-shadow: none;
+}
+
+button:hover {
+  background-color: transparent;
+}

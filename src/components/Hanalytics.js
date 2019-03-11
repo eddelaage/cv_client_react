@@ -8,7 +8,7 @@ const Hanalytics = () => {
       <div className="container-title-hanalytics">
         <div>
           <p>Septembre 2018 - Janvier 2019</p>
-          <h2 className="hanalytics-title">Stage developpeur web chez Hanalytics <a className="link-hanalytics" href="http://hanalytics.co/">www.hanalytics.co</a></h2>
+          <h2 className="hanalytics-title">Stage developpeur web chez <a className="link-hanalytics" href="http://hanalytics.co/">www.hanalytics.co</a></h2>
           <h3>Javascript / node js / react / redux / locomotive js / mongo db / Electron / Bootstrap</h3>
         </div>
         <div>

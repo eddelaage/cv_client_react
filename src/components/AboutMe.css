@@ -18,3 +18,8 @@
   color: #db5757;
   margin: 0;
 }
+
+span {
+  font-size: 18px;
+  color: rgb(255, 163, 163);
+}
