@@ -5,6 +5,8 @@ import Home from './components/Home'
 import Cv from './components/Cv'
 import HanaltyticsElectron from './components/HanalyticsElectron'
 import HanalyticsApp from './components/HanalyticsApp'
+import HanalyticsCorporate from './components/HanalyticsCorporate'
+import PourUneAutrePac from './components/PourUneAutrePac'
 import Erreur from './components/Erreur'
 import './components/Home.css'
 
@@ -17,6 +19,8 @@ class App extends Component {
           <Route path="/cv" component={Cv} />
           <Route path="/HanalyticsElectron" component={HanaltyticsElectron} />
           <Route path="/HanalyticsApp" component={HanalyticsApp} />
+          <Route path="/HanalyticsCorporate" component={HanalyticsCorporate} />
+          <Route path="/PourUneAutrePac" component={PourUneAutrePac} />
           <Route component={Erreur} />
         </Switch>
       </BrowserRouter>

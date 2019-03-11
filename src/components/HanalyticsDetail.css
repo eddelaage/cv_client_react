@@ -9,11 +9,12 @@
   margin: auto;
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
 }
 
 .container-imgaeGallery {
-  margin: auto;
-  width: 30%;
+  margin-top: 20px;
+  width: 35%;
 }
 
 button {
@@ -27,3 +28,7 @@ button:hover {
 .hanalytics-electron-detail {
   margin-left: 50px;
 }
+
+/* .image-gallery-left-nav, .image-gallery-right-nav{
+  font-size: 2em;
+} */
