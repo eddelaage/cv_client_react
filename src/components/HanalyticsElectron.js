@@ -83,7 +83,7 @@ const HanalyticsElectron = () => {
           <ImageGallery items={images} autoPlay />
         </div>
         <div className="hanalytics-electron-detail">
-          <h3>Stage developpeur web chez www.hanalytics.co</h3>
+          <h3>Stage developpeur web chez www.hanalytics.co (Electron)</h3>
           <p>Hanaylics est une application visant a fournir aux équipes informatiques SAP un cockpit centralisé pour obtenir une vue claire de l'état des systèmes SAP.</p>
           <p>L'application Electron est une version desktop à télécharger pour permettre aux prospects de tester l’application.</p>
           <p>Elle permet de créer des systèmes pour ensuite lancer un certain nombre d’enregistrements des données à des périodes différentes pour enfin pouvoir les analyser et donc avoir un aperçu des services d’Hanalytics.</p>

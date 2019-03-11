@@ -83,7 +83,7 @@ const PourUneAutrePac = () => {
           <ImageGallery items={images} autoPlay />
         </div>
         <div className="hanalytics-electron-detail">
-          <h3>Réalisation du site Internet de l'association Pour Une Autre Pac</h3>
+          <h3>Réalisation du site Internet de l'association Pour Une Autre Pac (React / Redux / Node JS)</h3>
           <p>Pour une autre PAC est une plateforme française inter‐organisations constituant un espace commun de réflexion et d’action, en vue de la refonte de la politique agricole commune (PAC).</p>
           <ul>
             <li>Zone administrable (CRUD)
