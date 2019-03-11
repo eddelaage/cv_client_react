@@ -71,8 +71,8 @@ const HanalyticsCorporate = () => {
           <p>L'objectif était de créer le site Internet corporate de l'application.</p>
           <p>Nous sommes partis sur la base d'un template trouvé sur Internet</p>
           <p>Il a fallu l'adapter à la charte graphique de l'entreprise et intégrer les logos / images et textes</p>
+          <p className="back-home"><Link to='/#portofolio'>Retour</Link></p>
         </div>
-        <p className="back-home"><Link to='/#portofolio'>Retour</Link></p>
       </div>
       <Footer />
       <EndFooter />

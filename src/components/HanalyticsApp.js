@@ -64,7 +64,7 @@ const HanalyticsApp = () => {
           <ImageGallery items={images} />
         </div>
         <div className="hanalytics-electron-detail">
-          <h3>Stage developpeur web chez www.hanalytics.co</h3>
+          <h3>Stage developpeur web chez www.hanalytics.co (React / Redux / Locomotive JS)</h3>
           <p>Hanaylics est une application visant a fournir aux équipes informatiques SAP un cockpit centralisé pour obtenir une vue claire de l'état des systèmes SAP.</p>
           <p>L’application est développée sur la base d’un framework web pour Node http://www.locomotivejs.org/ pour obtenir une structure MVC puis sur chacune des pages viennent se greffer des composants react / redux. La base de données utilisée est MongoDB</p>
           <ul className="ul-hanalytics">
