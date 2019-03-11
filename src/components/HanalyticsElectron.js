@@ -1,4 +1,8 @@
 import React from 'react'
+import { HashLink as Link } from 'react-router-hash-link'
+
+import Footer from './Footer'
+import EndFooter from './EndFooter'
 
 import ImageGallery from 'react-image-gallery';
 
@@ -68,28 +72,34 @@ const HanalyticsElectron = () => {
           <Nav />
         </div>
       </div>
+      <div className="container-back">
+        <p className="back-home"><Link to='/#portofolio'>Retour</Link></p>
+      </div>
       <div className="hanalytics-electron-title">
         <h2>Hanalytics Lite avec Electron </h2>
       </div>
       <div className="container-presentation">
         <div className="container-imgaeGallery">
-          <ImageGallery items={images} />
+          <ImageGallery items={images} autoPlay />
         </div>
         <div className="hanalytics-electron-detail">
           <h3>Stage developpeur web chez www.hanalytics.co</h3>
           <p>Hanaylics est une application visant a fournir aux équipes informatiques SAP un cockpit centralisé pour obtenir une vue claire de l'état des systèmes SAP.</p>
-          <p>L'application est une version desktop à télécharger pour permettre aux prospects de tester l’application.</p>
+          <p>L'application Electron est une version desktop à télécharger pour permettre aux prospects de tester l’application.</p>
           <p>Elle permet de créer des systèmes pour ensuite lancer un certain nombre d’enregistrements des données à des périodes différentes pour enfin pouvoir les analyser et donc avoir un aperçu des services d’Hanalytics.</p>
           <ul className="ul-hanalytics">
-            <li>Création de la page d’accueil qui liste les systèmes créer avec une synthèse des actions sur chacun d’eux.</li>
+            <li>Création de la page d’accueil qui liste les systèmes créés avec une synthèse des actions sur chacun d’eux.</li>
             <li>Création de progress bar au chargement des pages</li>
             <li>Création de pages de connexion pour accéder aux différents systèmes</li>
             <li>Création du système de lancement et d’arrêt d’un enregistrement</li>
             <li>Création de progress bar en fonction du temps d’enregistrement écoulé</li>
-            <li>Création de la liste des enregistrements effectuée.</li>
+            <li>Création de la liste des enregistrements effectués.</li>
           </ul>
+          <p className="back-home"><Link to='/#portofolio'>Retour</Link></p>
         </div>
       </div>
+      <Footer />
+      <EndFooter />
     </div>
   )
 }

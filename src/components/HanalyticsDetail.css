@@ -4,9 +4,15 @@
   margin: 20px 0 20px 0;
 }
 
+.container-back {
+  width: 80%;
+  margin: auto;
+}
+
 .container-presentation {
   width: 80%;
   margin: auto;
+  margin-bottom: 80px;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -29,6 +35,6 @@ button:hover {
   margin-left: 50px;
 }
 
-/* .image-gallery-left-nav, .image-gallery-right-nav{
-  font-size: 2em;
-} */
+.back-home a {
+  color: #db5757;
+}

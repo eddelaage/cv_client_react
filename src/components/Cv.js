@@ -13,7 +13,7 @@ import './Cv.css'
 
 const Cv = () => {
   return (
-    <div id="CV" className="CV">
+    <div id="cv" className="CV">
       <div className="background_img_cv">
         <Nav />
         <HeaderCv />

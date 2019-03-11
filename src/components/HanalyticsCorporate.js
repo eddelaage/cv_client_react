@@ -1,4 +1,8 @@
 import React from 'react'
+import { HashLink as Link } from 'react-router-hash-link'
+
+import Footer from './Footer'
+import EndFooter from './EndFooter'
 
 import ImageGallery from 'react-image-gallery';
 
@@ -50,22 +54,28 @@ const HanalyticsCorporate = () => {
           <Nav />
         </div>
       </div>
+      <div className="container-back">
+        <p className="back-home"><Link to='/#portofolio'>Retour</Link></p>
+      </div>
       <div className="hanalytics-electron-title">
         <h2>Hanalytics Site Corporate </h2>
       </div>
       <div className="container-presentation">
         <div className="container-imgaeGallery">
-          <ImageGallery items={images} />
+          <ImageGallery items={images} autoPlay />
         </div>
         <div className="hanalytics-electron-detail">
           <h3>Stage developpeur web chez www.hanalytics.co</h3>
           <p>Hanaylics est une application visant a fournir aux équipes informatiques SAP un cockpit centralisé pour obtenir une vue claire de l'état des systèmes SAP.</p>
           <p>Développement du site internet corporate http://hanalytics.co/</p>
-          <p>L'objéctif été de créer le site Internet corporate de l'application.</p>
-          <p>Nous sommes partie sur la base d'un template trouvé sur Internet</p>
-          <p>Il a falu l'adapter a la charte graphique de l'entreprise et intégrer les logos / images et textes</p>
+          <p>L'objectif était de créer le site Internet corporate de l'application.</p>
+          <p>Nous sommes partis sur la base d'un template trouvé sur Internet</p>
+          <p>Il a fallu l'adapter à la charte graphique de l'entreprise et intégrer les logos / images et textes</p>
         </div>
+        <p className="back-home"><Link to='/#portofolio'>Retour</Link></p>
       </div>
+      <Footer />
+      <EndFooter />
     </div>
   )
 }

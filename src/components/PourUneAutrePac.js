@@ -1,4 +1,8 @@
 import React from 'react'
+import { HashLink as Link } from 'react-router-hash-link'
+
+import Footer from './Footer'
+import EndFooter from './EndFooter'
 
 import ImageGallery from 'react-image-gallery';
 
@@ -68,12 +72,15 @@ const PourUneAutrePac = () => {
           <Nav />
         </div>
       </div>
+      <div className="container-back">
+        <p className="back-home"><Link to='/#portofolio'>Retour</Link></p>
+      </div>
       <div className="hanalytics-electron-title">
         <h2>Pour une autre PAC </h2>
       </div>
       <div className="container-presentation">
         <div className="container-imgaeGallery">
-          <ImageGallery items={images} />
+          <ImageGallery items={images} autoPlay />
         </div>
         <div className="hanalytics-electron-detail">
           <h3>Réalisation du site Internet de l'association Pour Une Autre Pac</h3>
@@ -156,8 +163,11 @@ const PourUneAutrePac = () => {
               </ul>
             </li>
           </ul>
+          <p className="back-home"><Link to='/#portofolio'>Retour</Link></p>
         </div>
       </div>
+      <Footer />
+      <EndFooter />
     </div>
   )
 }

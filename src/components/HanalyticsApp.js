@@ -1,4 +1,5 @@
 import React from 'react'
+import { HashLink as Link } from 'react-router-hash-link'
 
 import ImageGallery from 'react-image-gallery';
 
@@ -18,6 +19,8 @@ import App4 from '../img/Hanalytics/App/4.png'
 import AppLitle4 from '../img/Hanalytics/App/Litle/4.png'
 import App5 from '../img/Hanalytics/App/5.png'
 import AppLitle5 from '../img/Hanalytics/App/Litle/5.png'
+import Footer from './Footer';
+import EndFooter from './EndFooter';
 
 const images = [
   {
@@ -50,6 +53,9 @@ const HanalyticsApp = () => {
           <Nav />
         </div>
       </div>
+      <div className="container-back">
+        <p className="back-home"><Link to='/#portofolio'>Retour</Link></p>
+      </div>
       <div className="hanalytics-electron-title">
         <h2>Hanalytics : l'appilcation web </h2>
       </div>
@@ -60,26 +66,27 @@ const HanalyticsApp = () => {
         <div className="hanalytics-electron-detail">
           <h3>Stage developpeur web chez www.hanalytics.co</h3>
           <p>Hanaylics est une application visant a fournir aux équipes informatiques SAP un cockpit centralisé pour obtenir une vue claire de l'état des systèmes SAP.</p>
-          <p>L’application est développée sur la base d’un framework web pour Node http://www.locomotivejs.org/ pour obtenir une structure MVC  puis sur chacune des pages viennent se greffer des composants react / redux. La base de données utilisée est MongoDB</p>
+          <p>L’application est développée sur la base d’un framework web pour Node http://www.locomotivejs.org/ pour obtenir une structure MVC puis sur chacune des pages viennent se greffer des composants react / redux. La base de données utilisée est MongoDB</p>
           <ul className="ul-hanalytics">
             <li>
-            Intégration de la bibliothèque Isotop : https://isotope.metafizzy.co/
-            Isotope.js est une bibliothèque JavaScript qui facilite le tri, le filtrage et l'ajout de dispositions maçonnerie aux éléments d'une page Web.
+              Intégration de la bibliothèque Isotop : https://isotope.metafizzy.co/ <br/>
+              Isotope.js est une bibliothèque JavaScript qui facilite le tri, le filtrage et l'ajout de dispositions maçonnerie aux éléments d'une page Web.
             </li>
-            <li>Mise en place d'un system de rafraichissement toutes les x secondes</li>
-            <li>Création de la page de gestion des systems :</li>
-            <li>
-              <ul>
-                <li>Liste de tous les systems avec la possibilité d’activé / désactivé les différents systems.</li>
-                <li>Ajout d’un nouveau système</li>
-                <li>Ajout d’un cloud provider</li>
-                <li>Linker un système avec un cloud provider.</li>
-              </ul>
-            </li>
+            <li>Mise en place d'un système de rafraichissement toutes les X secondes</li>
+            <li>Création de la page de gestion des systèmes :</li>
+            <ul>
+              <li>Liste de tous les systèmes avec la possibilité d’activer / désactiver les différents systèmes.</li>
+              <li>Ajout de nouveaux systèmes</li>
+              <li>Ajout de nouveaux cloud provider</li>
+              <li>Linker des systèmes avec des cloud provider.</li>
+            </ul>
             <li>Création de la page de gestion des cloud provider</li>
           </ul>
+          <p className="back-home"><Link to='/#portofolio'>Retour</Link></p>
         </div>
       </div>
+      <Footer />
+      <EndFooter />
     </div>
   )
 }

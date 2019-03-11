@@ -18,18 +18,18 @@ import Coroporate2 from '../img/Hanalytics/Corporate/Moyen/2.png'
 import Coroporate5 from '../img/Hanalytics/Corporate/Moyen/5.png'
 
 const images = [
-  { src: PAC1, alt: 'Pour_une_autre_PAC', text: 'Pour une autre pac', link: '/PourUneAutrePac' },
-  { src: PAC5, alt: 'Pour_une_autre_PAC', text: 'Pour une autre pac', link: '/PourUneAutrePac' },
-  { src: PAC7, alt: 'Pour_une_autre_PAC', text: 'Pour une autre pac', link: '/PourUneAutrePac' },
-  { src: Elctron1, alt: 'Hanalytics_Electron', text: 'Hanalytics Electron', link: '/HanalyticsElectron' },
-  { src: Elctron5, alt: 'Hanalytics_Electron', text: 'Hanalytics Electron', link: '/HanalyticsElectron' },
-  { src: Elctron8, alt: 'Hanalytics_Electron', text: 'Hanalytics Electron', link: '/HanalyticsElectron' },
-  { src: Application1, alt: 'Analytics_application', text: 'Hanalytics Application', link: '/HanalyticsApp' },
-  { src: Application2, alt: 'Analytics_application', text: 'Hanalytics Application', link: '/HanalyticsApp' },
-  { src: Application3, alt: 'Analytics_application', text: 'Hanalytics Application', link: '/HanalyticsApp' },
-  { src: Coroporate1, alt: 'Analytics_application', text: 'Hanalytics Corporate', link: '/HanalyticsCorporate' },
-  { src: Coroporate2, alt: 'Analytics_application', text: 'Hanalytics Corporate', link: '/HanalyticsCorporate' },
-  { src: Coroporate5, alt: 'Analytics_application', text: 'Hanalytics Corporate', link: '/HanalyticsCorporate' }
+  { src: PAC1, alt: 'Pour_une_autre_PAC', text: 'Pour une autre PAC', link: '/PourUneAutrePac#Header' },
+  { src: PAC5, alt: 'Pour_une_autre_PAC', text: 'Pour une autre PAC', link: '/PourUneAutrePac#Header' },
+  { src: PAC7, alt: 'Pour_une_autre_PAC', text: 'Pour une autre PAC', link: '/PourUneAutrePac#Header' },
+  { src: Elctron1, alt: 'Hanalytics_Electron', text: 'Hanalytics Electron', link: '/HanalyticsElectron#Header' },
+  { src: Elctron5, alt: 'Hanalytics_Electron', text: 'Hanalytics Electron', link: '/HanalyticsElectron#Header' },
+  { src: Elctron8, alt: 'Hanalytics_Electron', text: 'Hanalytics Electron', link: '/HanalyticsElectron#Header' },
+  { src: Application1, alt: 'Analytics_application', text: 'Hanalytics Application', link: '/HanalyticsApp#Header' },
+  { src: Application2, alt: 'Analytics_application', text: 'Hanalytics Application', link: '/HanalyticsApp#Header' },
+  { src: Application3, alt: 'Analytics_application', text: 'Hanalytics Application', link: '/HanalyticsApp#Header' },
+  { src: Coroporate1, alt: 'Analytics_application', text: 'Hanalytics Corporate', link: '/HanalyticsCorporate#Header' },
+  { src: Coroporate2, alt: 'Analytics_application', text: 'Hanalytics Corporate', link: '/HanalyticsCorporate#Header' },
+  { src: Coroporate5, alt: 'Analytics_application', text: 'Hanalytics Corporate', link: '/HanalyticsCorporate#Header' }
 ]
 
 const Portofolio = () => {
@@ -37,7 +37,7 @@ const Portofolio = () => {
     <div className="container-portofolio">
       <div id="portofolio">
         <h2 className="portofolio-title">Portofolio</h2>
-        <h3>Quelques expemples de mes dernières réalisations et participation</h3>
+        <h3>Quelques exemples de mes dernières réalisations et participation</h3>
         <div id="image-container" className="image-container">
           {images.map((item, i) =>
             <div className="portofolio-gallery" key={i}>
