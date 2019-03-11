@@ -4,6 +4,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import Home from './components/Home'
 import Cv from './components/Cv'
 import HanaltyticsElectron from './components/HanalyticsElectron'
+import HanalyticsApp from './components/HanalyticsApp'
 import Erreur from './components/Erreur'
 import './components/Home.css'
 
@@ -15,6 +16,7 @@ class App extends Component {
           <Route path="/" component={Home} exact />
           <Route path="/cv" component={Cv} />
           <Route path="/HanalyticsElectron" component={HanaltyticsElectron} />
+          <Route path="/HanalyticsApp" component={HanalyticsApp} />
           <Route component={Erreur} />
         </Switch>
       </BrowserRouter>

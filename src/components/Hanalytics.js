@@ -32,7 +32,7 @@ const Hanalytics = () => {
         <p>L’application est développée sur la base d’un framework web pour Node http://www.locomotivejs.org/ pour obtenir une structure MVC  puis sur chacune des pages viennent se greffer des composants react / redux. La base de données utilisée est MongoDB</p>
         <ul className="ul-hanalytics">
           <li>
-            Intégration de la bibliothèque Isotop : https://isotope.metafizzy.co/ (Demander a Yi une capture d’écran)
+            Intégration de la bibliothèque Isotop : https://isotope.metafizzy.co/
             Isotope.js est une bibliothèque JavaScript qui facilite le tri, le filtrage et l'ajout de dispositions maçonnerie aux éléments d'une page Web.
           </li>
           <li>Mise en place d'un system de rafraichissement toutes les x secondes</li>
@@ -50,8 +50,8 @@ const Hanalytics = () => {
         <h4>Electron : Hanalytics lite</h4>
         <p>Cette application est une version desktop à télécharger pour permettre aux prospects de tester l’application.</p>
         <p>Elle permet de créer des systèmes pour ensuite lancer un certain nombre d’enregistrements des données à des périodes différentes pour enfin pouvoir les analyser et donc avoir un aperçu des services d’Hanalytics.</p>
-        <p>Création de la page d’accueil qui liste les systèmes créer avec une synthèse des actions sur chacun d’eux.</p>
         <ul className="ul-hanalytics">
+          <li>Création de la page d’accueil qui liste les systèmes créer avec une synthèse des actions sur chacun d’eux.</li>
           <li>Création de progress bar au chargement des pages</li>
           <li>Création de pages de connexion pour accéder aux différents systèmes</li>
           <li>Création du système de lancement et d’arrêt d’un enregistrement</li>

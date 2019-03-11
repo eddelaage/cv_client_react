@@ -19,11 +19,11 @@ import PAC7 from '../img/Pour_Une_Autre_Pac/Moyen/7.png'
 
 const images = [
   { src: Elctron1, alt: 'Hanalytics_Electron', text: 'Hanalytics Electron', link: '/HanalyticsElectron' },
-  { src: Elctron5, alt: 'Hanalytics_Electron', text: 'Hanalytics Electron' },
-  { src: Elctron8, alt: 'Hanalytics_Electron', text: 'Hanalytics Electron' },
-  { src: Application1, alt: 'Hanalytics_Electron', text: 'Hanalytics Application' },
-  { src: Application2, alt: 'Hanalytics_Electron', text: 'Hanalytics Application' },
-  { src: Application3, alt: 'Hanalytics_Electron', text: 'Hanalytics Application' },
+  { src: Elctron5, alt: 'Hanalytics_Electron', text: 'Hanalytics Electron', link: '/HanalyticsElectron' },
+  { src: Elctron8, alt: 'Hanalytics_Electron', text: 'Hanalytics Electron', link: '/HanalyticsElectron' },
+  { src: Application1, alt: 'Hanalytics_Electron', text: 'Hanalytics Application', link: '/HanalyticsApp' },
+  { src: Application2, alt: 'Hanalytics_Electron', text: 'Hanalytics Application', link: '/HanalyticsApp' },
+  { src: Application3, alt: 'Hanalytics_Electron', text: 'Hanalytics Application', link: '/HanalyticsApp' },
   { src: Coroporate1, alt: 'Hanalytics_Electron', text: 'Hanalytics Corporate' },
   { src: Coroporate2, alt: 'Hanalytics_Electron', text: 'Hanalytics Corporate' },
   { src: Coroporate5, alt: 'Hanalytics_Electron', text: 'Hanalytics Corporate' },
@@ -44,7 +44,7 @@ const Portofolio = () => {
               <div className="container">
                 <img src={item.src} alt={item.alt} className="image" />
                 <div className="overlay">
-                  <div className="text"><Link to={'/HanalyticsElectron'}>{item.text}</Link></div>
+                  <div className="text"><Link to={`${item.link}`}>{item.text}</Link></div>
                 </div>
               </div>
             </div>
