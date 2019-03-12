@@ -16,8 +16,8 @@ const AsidePres = () => {
           <h1>Edouard de Laage</h1>
         </div>
         <div className="Spec">
-          <h2>Developpeur Web Frellance</h2>
-          <p>Javascript / Node JS / React</p>
+          <h2>Developpeur Web Javascript</h2>
+          <p>React / Redux / Node JS</p>
         </div>
         <div className="social-networks">
           <a href="https://www.linkedin.com/in/edouard-de-laage-4711818/" target="_blank" rel="noopener noreferrer"><i className="fa fa-linkedin link-aside"></i></a>
