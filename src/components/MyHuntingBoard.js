@@ -25,7 +25,7 @@ const MyHuntingBoard = () => {
           <li>Mise en place de “cards Bootstrap” pour les statistiques.</li>
           <li>Mise en place de filtres (Utilisation de Reselect pour les données dérivées de redux)</li>
           <li>Mise en place de différents graphiques avec ChartJS.</li>
-          <li>Application en cours de développement. D’autres fonctionnalisées à venir...</li>
+          <li>Application en cours de développement. D’autres fonctionnalités à venir...</li>
         </ul>
       </div>
     </div>
