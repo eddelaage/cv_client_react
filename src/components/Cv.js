@@ -1,5 +1,7 @@
 import React from 'react'
 import HeaderCv from './HeaderCv'
+import MyHuntingBoard from './MyHuntingBoard'
+import Hanalytics from './Hanalytics'
 import WildCodeSchool from './WildCodeSchool'
 import HoLocation from './HoLocation'
 import Kdovino from './Kdovino'
@@ -7,7 +9,6 @@ import Formation from './Formation'
 import Nav from './Nav'
 import Footer from './Footer'
 import EndFooter from './EndFooter'
-import Hanalytics from './Hanalytics'
 
 import './Cv.css'
 
@@ -18,6 +19,7 @@ const Cv = () => {
         <Nav />
         <HeaderCv />
       </div>
+      <MyHuntingBoard />
       <Hanalytics />
       <WildCodeSchool />
       <HoLocation />

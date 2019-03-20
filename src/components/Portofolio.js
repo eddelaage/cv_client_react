@@ -16,8 +16,16 @@ import Application3 from '../img/Hanalytics/App/Moyen/3.png'
 import Coroporate1 from '../img/Hanalytics/Corporate/Moyen/1.png'
 import Coroporate2 from '../img/Hanalytics/Corporate/Moyen/2.png'
 import Coroporate5 from '../img/Hanalytics/Corporate/Moyen/5.png'
+import MyHuntingBoard1 from '../img/MyHuntingBoard/Moyen/1.png'
+import MyHuntingBoard2 from '../img/MyHuntingBoard/Moyen/2.png'
+import MyHuntingBoard3 from '../img/MyHuntingBoard/Moyen/3.png'
+import MyHuntingBoard5 from '../img/MyHuntingBoard/Moyen/5.png'
 
 const images = [
+  { src: MyHuntingBoard1, alt: 'My_Hunting_Board', text: 'My Hunting Board', link: '/MyHuntingBoardDetail#Header' },
+  { src: MyHuntingBoard2, alt: 'My_Hunting_Board', text: 'My Hunting Board', link: '/MyHuntingBoardDetail#Header' },
+  { src: MyHuntingBoard3, alt: 'My_Hunting_Board', text: 'My Hunting Board', link: '/MyHuntingBoardDetail#Header' },
+  { src: MyHuntingBoard5, alt: 'My_Hunting_Board', text: 'My Hunting Board', link: '/MyHuntingBoardDetail#Header' },
   { src: PAC1, alt: 'Pour_une_autre_PAC', text: 'Pour une autre PAC', link: '/PourUneAutrePac#Header' },
   { src: PAC5, alt: 'Pour_une_autre_PAC', text: 'Pour une autre PAC', link: '/PourUneAutrePac#Header' },
   { src: PAC7, alt: 'Pour_une_autre_PAC', text: 'Pour une autre PAC', link: '/PourUneAutrePac#Header' },
