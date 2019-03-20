@@ -72,7 +72,7 @@ const MyHuntingBoardDetail = () => {
             <li>Tableau récapitulatif des gibiers / suppression modification d’un gibier.</li>
             <li>Mise en place de “cards Bootstrap” pour les statistiques.</li>
             <li>Mise en place de filtres (Utilisation de Reselect pour les données dérivées de redux)</li>
-            <li>Application en court de développement. D’autres fonctionnalisées à venir...</li>
+            <li>Application en court de développement. D’autres fonctionnalités à venir...</li>
           </ul>
           <p className="back-home"><Link to='/#portofolio'>Retour</Link></p>
         </div>
