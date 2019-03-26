@@ -16,15 +16,14 @@ const MyHuntingBoard = () => {
         </div>
       </div>
       <div className="container-recap-wcs">
-        {/* <p>Au total et en 5 mois j’aurais créé 3 projets concrets avec l’aide d’un logiciel de version (Git)</p>
-        <p>Outre l’apprentissage de ces technologies, nous travaillons en groupe de 5 à 6 personnes.</p>
-        <p>J’ai donc appris à travailler avec une approche Agile et une méthodologie SCRUM :</p> */}
+        <p>Front avec React / Redux <br/> Back avec Node JS <br/> Base de données avec Mysql</p>
         <ul>
           <li>Création de compte / connexion déconnexion (Passport JWT) / mot de passe oublié.</li>
           <li>Tableau récapitulatif des gibiers / suppression modification d’un gibier.</li>
           <li>Mise en place de “cards Bootstrap” pour les statistiques.</li>
           <li>Mise en place de filtres (Utilisation de Reselect pour les données dérivées de redux)</li>
           <li>Mise en place de différents graphiques avec ChartJS.</li>
+          <li>Upload Update Delete d'images des gibiers sur Cloudinary</li>
           <li>Application en cours de développement. D’autres fonctionnalités à venir...</li>
         </ul>
       </div>
