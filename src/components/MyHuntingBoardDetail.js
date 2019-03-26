@@ -64,14 +64,16 @@ const MyHuntingBoardDetail = () => {
           <ImageGallery items={images} />
         </div>
         <div className="hanalytics-electron-detail">
-          <h3>Objectif : continué a me former et a apprendre a travers un réel projet d'application full statk. <br/> (React / Redux / Node / React router / MySQL / divers bibliothèques)</h3>
+          <h3>Objectif : continué a me former et a apprendre a travers un réel projet d'application full statk. <br/> (React / Redux / Node / React router / MySQL / divers bibliothèques</h3>
           <p>MyHuntingBoard est une application “dashboards“ afin de permettre aux chasseurs une meilleurs gestion de leurs prélèvements de gibiers. </p>
+          <p>Front : React / Redux <br/> Back : Node JS <br/> Base de données: Mysql</p>
           <p>Les fonctionnalitées : </p>
           <ul className="ul-hanalytics">
             <li>Création de compte / connexion déconnexion (Passport JWT) / mot de passe oublié.</li>
             <li>Tableau récapitulatif des gibiers / suppression modification d’un gibier.</li>
             <li>Mise en place de “cards Bootstrap” pour les statistiques.</li>
             <li>Mise en place de filtres (Utilisation de Reselect pour les données dérivées de redux)</li>
+            <li>Upload Update Delete d'images des gibiers sur Cloudinary</li>
             <li>Application en court de développement. D’autres fonctionnalités à venir...</li>
           </ul>
           <p className="back-home"><Link to='/#portofolio'>Retour</Link></p>

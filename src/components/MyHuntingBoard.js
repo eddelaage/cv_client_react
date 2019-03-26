@@ -10,6 +10,7 @@ const MyHuntingBoard = () => {
           <p>Depuis Février 2019</p>
           <h2 className="wcs-title">My Hunting Board (Projet personnel) </h2>
           <h3>React / Redux / Node JS / React router / MySQL / Bootstrap / divers bibliothèques</h3>
+          <h3>Objectif : continué a me former et a apprendre a travers un réel projet d'application full statk</h3>
         </div>
         <div>
           <p>Développement full stack d’une application “dashboards“ afin de permettre aux chasseurs une meilleurs gestion de leurs prélèvements de gibiers.</p>
